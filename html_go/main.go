@@ -12,6 +12,7 @@ func check(e error) {
         panic(e)
     }
 }
+// function adds html, css and javascript files.
 func createfile(){
 	a:=rand.IntN(100)
     ht := []byte("<head>\n<title></title>\n</head>\n<body>\n</body>")
